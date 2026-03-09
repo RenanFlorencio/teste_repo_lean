@@ -1,0 +1,10 @@
+name = "teste_repo_lean"
+version = "0.1.0"
+defaultTargets = ["teste_repo_lean"]
+
+[[lean_lib]]
+name = "TesteRepoLean"
+
+[[lean_exe]]
+name = "teste_repo_lean"
+root = "Main"
